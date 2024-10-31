@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Tiny5'; /*a name to be used later*/
+    src: url('../Tiny5-Regular.ttf'); /*URL to font*/
+}
+
+body{
+    background-color: #ffa9f3;
+}
+
+.Links{
+    font-family: "Tiny5", sans-serif;
+    color: rgb(99, 99, 99);
+    font-size: x-large;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 4px;
+}

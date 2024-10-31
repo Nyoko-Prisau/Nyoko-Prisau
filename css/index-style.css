@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Tiny5'; /*a name to be used later*/
+    src: url('../Tiny5-Regular.ttf'); /*URL to font*/
+}
+
+body{
+    background-color: #ffa9f3;
+}
+
+.txt-main{
+    position: fixed;
+    inset: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.txt {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 4px;
+}
+
+.style{
+    font-family: "Tiny5", sans-serif;
+    color: rgb(99, 99, 99);
+    font-size: x-large;
+}
