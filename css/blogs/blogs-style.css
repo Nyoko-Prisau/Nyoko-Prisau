@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Tiny5'; /*a name to be used later*/
-    src: url('../Tiny5-Regular.ttf'); /*URL to font*/
+    font-family: 'Tiny5';
+    src: url('../../Tiny5-Regular.ttf');
 }
 
 body{
@@ -19,4 +19,10 @@ body{
     justify-content: left;
     align-items: left;
     gap: 4px;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
 }
